@@ -7,10 +7,6 @@ use Modules\Auth\Controllers\AdminDashboardController;
 Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::get('/admin/dashboard', [AdminDashboardController::class, 'index'])
         ->name('admin.dashboard');
-    Route::patch('/admin/users/{user}/role', [AdminDashboardController::class, 'updateRole'])
-        ->name('admin.users.updateRole');
-    Route::delete('/admin/users/{user}', [AdminDashboardController::class, 'destroyUser'])
-        ->name('admin.users.destroy');
 });
 
 // Route untuk user biasa (memerlukan login)

@@ -6,6 +6,23 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+        'role',
+    ];
+    public function isAdmin(): bool
+    {
+        return $this->role === 'admin';
+    }
+
+    public function isUser(): bool
+    {
+        return $this->role === 'user';
+    }
+
+
     public function up(): void
     {
         Schema::table('users', function (Blueprint $table) {
