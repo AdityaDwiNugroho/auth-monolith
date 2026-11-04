@@ -5,6 +5,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="https://github.com/AdityaDwiNugroho/auth-monolith/tree/pertemuan-05"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAdityaDwiNugroho%2Fauth-monolith%2Ftree%2Fpertemuan-05&count_bg=%232563EB&title_bg=%231E293B&icon=github&icon_color=%23FFFFFF&title=views&edge_flat=false" alt="Views"></a>
 </p>
 
 ## About Laravel
